@@ -19,7 +19,7 @@ our @EXPORT_OK = qw(
 	repeatable_list_shuffler
 );
 
-our $VERSION = 0.1;
+our $VERSION = 0.11;
 
 sub do_sublist(&&@)
 {
@@ -176,6 +176,10 @@ sub repeatable_list_shuffler
 1;
 
 __END__
+
+=head1 NAME
+
+ List::EvenMoreUtils - Array manipulation functions
 
 =head1 SYNOPSIS
 
